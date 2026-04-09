@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+/* MENU (cards melhor posicionados) */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  color: #1e3c72;
+  padding: 20px 25px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* ÁREA DO TUTORIAL */
+main {
+  padding: 20px;
+}
+
+#texto {
+  font-size: 1.3rem;
+  margin: 30px 0;
+}
+
+
+/* botoes */
+.btn-ouvir {
+  background: #00c853;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+
+.btn-proximo {
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 150px;
+}
